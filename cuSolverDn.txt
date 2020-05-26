@@ -1,0 +1,98 @@
+10790:
+GPU Device 0: "Tesla V100-SXM2-16GB" with compute capability 7.0
+
+step 1: read matrix market format
+Using input file [10790_A.mtx]
+Begin to open file...10790_A.mtxsucess...sparse matrix A is 10790 x 10790 with 36593 nonzeros, base=0
+step 2: convert CSR(A) to dense matrix
+step 3: set right hand side vector (b) to 1
+step 4: prepare data on device
+timing: cudaMemcpyHostToDevice=0.100442
+step 5: solve A*x = b 
+timing: LU=0.254410
+step 6: evaluate residual
+timing: cudaMemcpyDeviceToHost=0.001526
+|b - A*x| = 2.492520E+01 
+|A| = 5.022622E+04 
+|x| = 8.393519E+00 
+|b - A*x|/(|A|*|x|) = 5.912404E-05 
+==========================================
+ 
+SC:
+GPU Device 0: "Tesla V100-SXM2-16GB" with compute capability 7.0
+
+step 1: read matrix market format
+Using input file [SC_A.mtx]
+Begin to open file...SC_A.mtxsucess...sparse matrix A is 2433 x 2433 with 7569 nonzeros, base=0
+step 2: convert CSR(A) to dense matrix
+step 3: set right hand side vector (b) to 1
+step 4: prepare data on device
+timing: cudaMemcpyHostToDevice=0.005621
+step 5: solve A*x = b 
+timing: LU=0.004548
+step 6: evaluate residual
+timing: cudaMemcpyDeviceToHost=0.000234
+|b - A*x| = 2.260980E+01 
+|A| = 1.400524E+04 
+|x| = 6.249858E-01 
+|b - A*x|/(|A|*|x|) = 2.583069E-03 
+==========================================
+ 
+118:
+GPU Device 0: "Tesla V100-SXM2-16GB" with compute capability 7.0
+
+step 1: read matrix market format
+Using input file [118_A.mtx]
+Begin to open file...118_A.mtxsucess...sparse matrix A is 118 x 118 with 464 nonzeros, base=0
+step 2: convert CSR(A) to dense matrix
+step 3: set right hand side vector (b) to 1
+step 4: prepare data on device
+timing: cudaMemcpyHostToDevice=0.000061
+step 5: solve A*x = b 
+timing: LU=0.000289
+step 6: evaluate residual
+timing: cudaMemcpyDeviceToHost=0.000041
+|b - A*x| = 1.508850E+01 
+|A| = 7.448650E+02 
+|x| = 6.491735E-01 
+|b - A*x|/(|A|*|x|) = 3.120382E-02 
+==========================================
+ 
+14:
+GPU Device 0: "Tesla V100-SXM2-16GB" with compute capability 7.0
+
+step 1: read matrix market format
+Using input file [14_A.mtx]
+Begin to open file...14_A.mtxsucess...sparse matrix A is 13 x 13 with 49 nonzeros, base=1
+step 2: convert CSR(A) to dense matrix
+step 3: set right hand side vector (b) to 1
+step 4: prepare data on device
+timing: cudaMemcpyHostToDevice=0.000022
+step 5: solve A*x = b 
+timing: LU=0.000125
+step 6: evaluate residual
+timing: cudaMemcpyDeviceToHost=0.000038
+|b - A*x| = 9.128070E-01 
+|A| = 8.369136E+01 
+|x| = 2.744714E-01 
+|b - A*x|/(|A|*|x|) = 3.973757E-02 
+==========================================
+FJ:
+GPU Device 0: "Tesla V100-SXM2-16GB" with compute capability 7.0
+
+step 1: read matrix market format
+Using input file [FJ_A.mtx]
+Begin to open file...FJ_A.mtxsucess...sparse matrix A is 1425 x 1425 with 4805 nonzeros, base=0
+step 2: convert CSR(A) to dense matrix
+step 3: set right hand side vector (b) to 1
+step 4: prepare data on device
+timing: cudaMemcpyHostToDevice=0.002018
+step 5: solve A*x = b 
+timing: LU=0.002548
+step 6: evaluate residual
+timing: cudaMemcpyDeviceToHost=0.000139
+|b - A*x| = 9.865040E+00 
+|A| = 1.279179E+05 
+|x| = 3.150757E-01 
+|b - A*x|/(|A|*|x|) = 2.447669E-04 
+==========================================

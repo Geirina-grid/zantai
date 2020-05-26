@@ -1,0 +1,140 @@
+GPU Device 0: "Tesla V100-SXM2-16GB" with compute capability 7.0
+
+step 1: read matrix market format
+Using input file [FJ_A.mtx]
+Begin to open file...FJ_A.mtxsucess...sparse matrix A is 1425 x 1425 with 4805 nonzeros, base=0
+lda: 1425
+colsA: 1425
+nCtg: 100
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2: convert CSR(A) to dense matrix
+step 2-2: convert CSR(A) to dense matrix
+2-0
+2-0-0
+2-0-1
+2-0-2
+2-0-3
+2-0-4
+2-1
+2-2
+2-3
+2-4
+step 3: set right hand side vector (b) to 1
+0
+0-0
+FJB.txt
+1-1
+1
+After read b
+Begin to cudaMalloc
+0
+0-1
+0-2
+0-3
+0-4
+step 4: prepare data on device
+timing: cudaMemcpyHostToDevice=0.258629
+step 5: solve A*x = b 
+
+nCtg=100, lda=1425, colsA=1425
+
+timing: map and reduce solver=0.121833
+step 6: evaluate residual
